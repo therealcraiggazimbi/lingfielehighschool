@@ -1,0 +1,119 @@
+.LingfieldWay {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url("../assets/bg.png");
+   
+}
+
+
+.LingfieldWay h4 {
+    color: white;
+    font-family: Abel;
+    font-size: 25px;
+    padding-top: 80px;
+
+}
+
+.box1 h3 {
+    font-family: Tungsten;
+    font-size: 50px;
+    color: #707070;
+   
+      
+}
+
+.box1{
+    height: 350px;
+    
+}
+
+
+.box1 p {
+    color: #707070;
+    padding-bottom: 0 !important;
+    padding-right: 20px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+
+.box2 {
+    background-image: linear-gradient(rgba(1, 41, 95, 0.6), rgba(1, 41, 95, 0.6)), url('../assets/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    place-items: center;
+    height: 350px;
+   
+}
+
+
+
+.box3 {
+    background-image: linear-gradient(rgba(1, 41, 95, 0.6), rgba(1, 41, 95, 0.6)), url('../assets/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    place-items: center;
+    height: 350px;
+      
+}
+
+.box4 {
+    background-image: linear-gradient(rgba(1, 41, 95, 0.6), rgba(1, 41, 95, 0.6)), url('../assets/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    place-items: center;
+    height: 350px;
+}
+
+.box5 {
+    background-image: linear-gradient(rgba(1, 41, 95, 0.6), rgba(1, 41, 95, 0.6)), url('../assets/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    place-items: center;
+    height: 350px;
+  
+}
+
+.box6 {
+    background-image: linear-gradient(rgba(1, 41, 95, 0.6), rgba(1, 41, 95, 0.6)), url('../assets/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    place-items: center;
+    height: 350px;
+      
+}
+
+
+
+@media (max-width: 820px) {
+.LingfieldWay {
+      display: none;
+
+    }
+         
+}

@@ -1,0 +1,175 @@
+.main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    
+}
+
+.main h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 2rem;
+}
+
+.main ul li{
+
+    padding-bottom: 10px;
+    list-style:disc
+}
+
+
+
+    
+
+.btnPrimary{
+    background-color: var(--secondary-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+    font-family: Abel;
+    color: white;
+    font-weight: bold;
+}
+
+.btnPrimary:hover {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.btnContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.subNav{
+
+    background-color: #FFF8E9;
+    width: 300px;
+    min-height: 300px;
+    margin-top: 50px;
+   color: var(--primary-color);
+   padding:1rem 1rem;
+   font-family: Abel;
+   font-size: 18px;
+   padding-bottom: 35px;
+}
+
+.subNav > div{
+
+    height: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 40px;
+    padding-top: 15px;
+    
+}
+
+.subNav>div:hover {
+
+  color: var(--red);
+
+}
+.active{
+    color: white;
+    background-color:var(--secondary-color) ;
+    padding-left: 10px;
+}
+
+.active:hover{
+    color: white !important;
+}
+
+.subNav > div:first-child{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ gap: 10px;
+ align-items: center;
+border-bottom: none;
+padding-top:0 !important;
+
+}
+
+.subNav>div:first-child:hover {
+color: var(--primary-color) !important;
+}
+
+.carousel{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+     align-items: center;
+    
+}
+
+.carousel >div:nth-child(2){
+    text-align: center;
+}
+
+.carousel>div:nth-child(3) {
+   justify-self:end;
+}
+
+
+.controlls {
+    border: 1px solid #707070;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.controlls .fa-solid {
+    /* padding: 15px; */
+    cursor: pointer;
+}
+
+.controllsbtn {
+    align-self: center;
+}
+
+.mobile{
+    display: none;
+}
+
+
+
+@media (max-width: 820px) {
+    .main {
+            padding-left: 5px;
+            padding-right: 5px;
+            display: grid;
+            grid-template-columns: 1fr;
+    
+    }
+    .main h2 {
+        font-size: 30px;
+          
+    }
+
+    .subNav{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+        .main h2 {
+            font-size: 30px;
+            padding-bottom: 30px;
+            padding-top: 2rem;
+            font-family: Tungsten;
+        }
+
+}

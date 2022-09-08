@@ -1,0 +1,91 @@
+.Values {
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Values h3 {
+  font-family: Tungsten;
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+
+.valueschildone {
+align-self: center;
+  justify-self: start;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 450px;
+
+}
+
+.valueschildtwo {
+  align-self: center;
+  justify-self: center;
+}
+
+.valueschildthree {
+  align-self: center;
+  text-align: right;
+  height: 450px;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.valueschildoneinnerone {
+  border-bottom: 1px solid #707070;
+}
+
+.valueschildoneinnertwo {
+  align-self: flex-end;
+}
+
+.valueschildthreeinnerone {
+  border-bottom: 1px solid #707070;
+ 
+}
+
+.valueschildthreeinnertwo {
+  align-self: flex-end;
+}
+
+@media (max-width: 820px) {
+.Values {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr;
+    place-items: center;
+  }
+
+    .valueschildone {
+      align-self: center;
+      justify-self: center;
+          text-align: center;
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      height: 300px;
+  
+    }
+        .valueschildthree {
+          place-items: center;
+          text-align: center;
+          height: 300px;
+    
+          display: grid;
+          grid-template-rows: repeat(2, 1fr);
+        }
+               
+}
+
+

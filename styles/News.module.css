@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.heading2{
+    padding-left: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+@media (max-width: 820px) {
+.main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 5px;
+        padding-left: 5px;
+        gap: 20px;
+        place-items: center;
+
+    }
+
+    .heading2 {
+        padding-left: 45px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+        font-family: Tungsten;
+    }
+     
+}
